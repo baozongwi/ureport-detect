@@ -202,7 +202,7 @@ MySQL 三个范围：
 | `8.0.0-8.0.19` | `testConnection` | `queryInterceptors=com.mysql.cj.jdbc.interceptors.ServerStatusDiffInterceptor` |
 | `8.0.20-8.1.0` | `previewData` / 报表 XML | `autoDeserialize=true`，不带 interceptor，用 UReport 里面的 `ResultSet.getObject` |
 
-`8.0.20` 起 interceptor 不再 `getObject`，`8.2.0` 起去掉 `autoDeserialize`。具体分析可参考 https://baozongwi.xyz/
+`8.0.20` 起 interceptor 不再 `getObject`，`8.2.0` 起去掉 `autoDeserialize`。具体分析可参考 https://baozongwi.xyz/p/ureport2-unauth-designer-rce/
 
 ## 0x02 检测
 
