@@ -2,7 +2,7 @@
 
 ## 0x00 使用建议
 
-使用 jdk8 运行 jar 包，其中  PostgreSQL.xml 以及 MySQL_Fake_Server 建议提前启动填入，检测时会用到
+从 [Releases](https://github.com/baozongwi/ureport-detect/releases/latest) 下载 [`ureport-detect.jar`](https://github.com/baozongwi/ureport-detect/releases/latest/download/ureport-detect.jar)，使用 jdk8 运行。PostgreSQL.xml 以及 MySQL_Fake_Server 建议提前启动填入，检测时会用到
 
 测试时 PostgreSQL.xml 内容如下
 
